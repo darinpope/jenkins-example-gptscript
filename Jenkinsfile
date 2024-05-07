@@ -19,5 +19,10 @@ pipeline {
         sh 'gptscript bob.gpt'
       }
     }
+    stage('run bob-python') {
+      steps {
+        sh 'gptscript bob-python.gpt'
+      }
+    }
   }
 }

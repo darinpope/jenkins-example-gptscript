@@ -1,0 +1,14 @@
+Tools: bob
+
+Ask Bob how he is doing and let me know exactly what he said.
+
+---
+Name: bob
+Description: I'm Bob, a friendly guy.
+Args: question: The question to ask Bob.
+
+#!python3
+
+import os
+
+print(f"Thanks for asking {os.environ['question']}, I'm doing great fellow friendly AI tool!")
